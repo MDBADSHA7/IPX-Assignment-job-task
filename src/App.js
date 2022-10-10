@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Section1 from './Section/Section1';
@@ -19,10 +20,7 @@ function App() {
       <Section4></Section4>
       <Section5></Section5>
       <Section6></Section6>
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-      </Routes> */}
+      <Footer></Footer>
     </div>
   );
 }
