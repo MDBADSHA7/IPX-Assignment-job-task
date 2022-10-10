@@ -13,7 +13,7 @@ const Section6 = () => {
                         <div class="card-body mt-5">
                             <div className='flex'>
                                 <div class="avatar">
-                                    <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                    <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                         <img src="https://placeimg.com/192/192/people" />
                                     </div>
                                 </div>
@@ -22,7 +22,7 @@ const Section6 = () => {
                                     <p className='text text-white'>Owned by - Pallav Baijuri</p>
                                 </div>
                             </div>
-                            <div class="card-actions justify-end">
+                            <div class="card-actions justify-end mt-10">
                                 <p className='text text-white mt-3 text-lg font-bold'>Price - IMR 5,73,000</p>
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
@@ -33,7 +33,7 @@ const Section6 = () => {
                         <div class="card-body mt-5">
                             <div className='flex'>
                                 <div class="avatar">
-                                    <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                    <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                         <img src="https://placeimg.com/192/192/people" />
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ const Section6 = () => {
                                     <p className='text text-white'>Owned by - Pallav Baijuri</p>
                                 </div>
                             </div>
-                            <div class="card-actions justify-end">
+                            <div class="card-actions justify-end mt-10">
                                 <p className='text text-white mt-3 text-lg font-bold'>Price - IMR 5,73,000</p>
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
@@ -53,7 +53,7 @@ const Section6 = () => {
                         <div class="card-body mt-5">
                             <div className='flex'>
                                 <div class="avatar">
-                                    <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                    <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                         <img src="https://placeimg.com/192/192/people" />
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ const Section6 = () => {
                                     <p className='text text-white'>Owned by - Pallav Baijuri</p>
                                 </div>
                             </div>
-                            <div class="card-actions justify-end">
+                            <div class="card-actions justify-end mt-10">
                                 <p className='text text-white mt-3 text-lg font-bold'>Price - IMR 5,73,000</p>
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
