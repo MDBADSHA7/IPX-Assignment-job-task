@@ -2,8 +2,7 @@ import React from 'react';
 import "./section1.css"
 const Section1 = () => {
     return (
-
-        <div className='bg-black mt-10 p-10'>
+        <div className='bg-black mt-2 p-10'>
             <div className='border p-5'>
                 <h1 className='text text-white text-3xl mb-5'>Benefits of investment</h1>
                 <hr />
