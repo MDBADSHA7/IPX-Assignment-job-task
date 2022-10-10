@@ -1,6 +1,6 @@
 import React from 'react';
 import coverImage from "../Images/Cover Image.png"
-import Vector from "../Images/Vector.png"
+// import Vector from "../Images/Vector.png"
 import Stripe from "../Images/Stripe_logo,_revised_2016 1.png"
 import Paypal from "../Images/Paypal_2014_logo 1.png"
 import "./Home.css"
@@ -24,7 +24,7 @@ const Home = () => {
                                 <b>Rahul Roy</b>
                             </div>
                             <div className='margin text text-white'>
-                                <img src={Vector} alt="" />
+                                {/* <img src={Vector} alt="" /> */}
                                 <b>Flow NFT</b>
                             </div>
                             <hr />

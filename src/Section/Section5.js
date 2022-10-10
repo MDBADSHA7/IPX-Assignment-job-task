@@ -1,5 +1,10 @@
 import React from 'react';
-
+import discord from "../Images/discord.png"
+import facebook from "../Images/facebook.png"
+import twiter from "../Images/twiter.png"
+import instagram from "../Images/instagram.png"
+import arrow from "../Images/arrow.jpg"
+import "./Section5.css"
 const Section5 = () => {
     return (
         <div className='bg-black mt-2 p-10'>
@@ -7,16 +12,25 @@ const Section5 = () => {
                 <h1 className='text text-white text-3xl mb-5'>Stay Connected</h1>
                 <hr />
                 {/* Blank square made */}
-                <div className='grid grid-cols-2 p-5 gap-10'>
-                    <div className='square'>
+                <div className='grid grid-cols-3 p-5 gap-10'>
+                    <div className='square p-10'>
+                        <h1 className='text text-white text-lg'>Join</h1>
+                        <p className='text text-white text-2xl font-bold'>Discord</p>
+                        <img className='discord' src={discord} alt="" />
                     </div>
-                    <div>
-                        <h1 className='text text-white font-bold text-lg mt-3'>Should we put all four in the discription?</h1>
-                        <p className='text text-white mb-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quos eos voluptatibus, suscipit, autem excepturi repudiandae id placeat rerum numquam praesentium veritatis? Magni explicabo iure officiis blanditiis, nobis neque, laudantium dignissimos numquam porro dolore alias laborum nulla nisi ratione! Esse optio atque similique nemo deleniti eaque explicabo accusamus doloremque magnam, dignissimos cupiditate sit temporibus culpa neque consequatur beatae harum amet!</p>
-                        <hr />
-                        <p className='text text-white font-bold text-lg mt-2 mb-2'>Infographic with icons, Would like more info about e-commerce platforms for books and games.</p>
-                        <hr />
-                        <p className='text text-white font-bold text-lg mt-2'>Infographic with icons, Would like more info about e-commerce platforms for books and games.</p>
+                    <div className='square p-10'>
+                        <h1 className='text text-white text-lg'>Share</h1>
+                        <p className='text text-white text-2xl font-bold'>Link</p>
+                        <div className='flex'>
+                            <img className='discord' src={facebook} alt="" />
+                            <img className='twiter' src={twiter} alt="" />
+                            <img className='instagram' src={instagram} alt="" />
+                        </div>
+                    </div>
+                    <div className='square p-10'>
+                        <h1 className='text text-white text-lg'>Share</h1>
+                        <p className='text text-white text-2xl font-bold'>Link</p>
+                        <img className='arrow' src={arrow} alt="" />
                     </div>
                 </div>
             </div>
